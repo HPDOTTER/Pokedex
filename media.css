@@ -1,0 +1,66 @@
+@media (max-width: 680px) {
+  .card {
+    height: 160px;
+    width: 130px;
+  }
+  .card:hover {
+    box-shadow: 0 0 10px 5px rgba(223, 114, 13, 0.8) !important;
+}
+  .card-header {
+    font-size: 0.7rem;
+  }
+  .card-img {
+    width: 100px;
+    height: 100px;
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+  .overlay-card {
+    height: 320px;
+  }
+  .header-img {
+    height: 30px;
+    width: 30px;
+  }
+  input {
+    height: 20px;
+    width: 30%;
+  }
+  header{
+    height: 60px;
+    font-size: 0.8rem;
+  }
+  footer {
+    height: 60px;
+    font-size: 0.8rem;
+  }
+  h4 {
+    font-size: 0.6rem;
+  }
+  .overlay-card {
+    width: 220px;
+  }
+  .menuoption {
+    width: 72px;
+    font-size: 12px;
+  }
+  .stats {
+    padding: 5px;
+  }
+  .statsvalue {
+    padding-top: 5px;
+  }
+  .progress-bar {
+    margin: 9px;
+  }
+  .progress{
+    height: 7px;
+  }
+  .evochainimg {
+    height: 60px;
+    width: 60px;
+  }
+
+}

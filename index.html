@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <script src="./template.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./elements.css">
+    <link rel="stylesheet" href="./overlay.css">
+    <link rel="stylesheet" href="./loadingSpinnter.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viga&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imgs/pokeball.png" type="image/x-icon">
+
+    <title>Pokedex</title>
+</head>
+<body onload="init()">
+    <header>
+        <div class="header-wrapper">
+            <div class="header-div">
+                <img class="header-img" src="./imgs/pokeball.png" onclick="location.reload()">
+                <p class="mb-0">Pokedex</p>
+            </div>
+            <input type="text" id="search" onkeyup="search()" placeholder="Search Pokemon">
+        </div>
+    </header>
+    <main id="data">
+    </main>
+    <div class="spinnerdiv"  id="loading-spinner">
+        <div class="loader"></div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div class="buttondiv" >
+        <button class="morebutton" id="button" onclick="getMore()">More</button>
+    </div>
+    <footer>
+        © Johannes Nordmann 2025
+    </footer>
+</body>
+</html>

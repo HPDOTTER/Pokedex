@@ -1,0 +1,153 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #06151d60;
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.overlay-card {
+    color: white;
+    height: 420px;
+    width: 300px;
+    border-radius: 19px;
+}
+
+.overlay-card-header {
+    border-radius: 15px 15px 0px 0px;
+    height: 50px;
+}
+
+.overlay-card-footer {
+    border-radius: 0px;
+    height: 50px;
+}
+
+.overlaystats {
+    background-color: #0D3240;
+    border-radius: 0px 0px 15px 15px;
+    height: 195px;
+}
+
+.overlaystatsmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    align-items: center;
+    
+}
+
+.menuoption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99px;
+    height: 25px;
+    background-color: #124758;
+    cursor: pointer;
+}
+.menuoption:hover {
+    background-color: #0D3240;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    transition: all 0.2s;
+}
+
+.menuoptionactive {
+    border-bottom: 1px solid orange;
+}
+
+.optioninfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    font-size: 0.80rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.mainvalue {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 20px;
+    width: 40%;
+    height: 100%;
+    font-size: 0.7rem;
+}
+
+.statsvalue {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 20px;
+    height: 100%;
+    width: 60%;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
+.p-6 {
+    padding: 6.8px;
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 30px;
+    border: 1.5px solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.progress {
+    height: 8.4px;
+    background-color: #ef476f;
+    border-radius: 30px;
+}
+
+.evochain {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.evochainimg {
+    height: 90px;
+    width: 90px;
+}
